@@ -127,7 +127,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/equl_text_color"
-            android:onClick="onClickNumber"
             android:orientation="horizontal">
 
             <Button
