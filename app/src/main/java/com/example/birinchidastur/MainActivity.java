@@ -73,7 +73,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void deleteNumber() {
-        this.inputText.getText().delete(getInput().length() - 1, getInput().length());
+        int length = getInput().length();
+        if (length > 0) {
+            inputText.getText().delete(length - 1, length);
+        }
     }
 
     private String getInput() {
